@@ -42,7 +42,16 @@
 @import url("../block/footer/__social-icons/footer__social-icons.css");
 @import url("../block/footer/__author/footer__author.css");
 @import url("../block/logo/_place/logo_place_footer.css");
+@import url("../block/rotacion/rotacion.css");
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  transition: opacity 1s;
+}
+
+a:hover {
+  opacity: 0.5;
 }
