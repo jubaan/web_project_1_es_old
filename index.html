@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Learning how to learn</title>
-  <link rel="stylesheet" href="./styles/normalize.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./vendor/normalize.css" />
+  <link rel="stylesheet" href="./pages/index.css" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
       </h2>
       <a href="#" class="header__link"> Más información &#8594;</a>
       <img src="./images/header-image.png" alt="Girl standing on a mountain" class="header__main-illustration" />
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotacion"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -59,8 +59,8 @@
         </div>
       </section>
       <section class="digits">
-        <h2 class="section-title">Datos y figuras</h2>
-        <h3 class="section-subtitle">El aprendizaje y el cerebro</h3>
+        <h2 class="section__title">Datos y figuras</h2>
+        <h3 class="section__subtitle">El aprendizaje y el cerebro</h3>
         <ul class="table">
           <li class="table__cell">
             <h4 class="table__heading">86 billones</h4>
@@ -73,8 +73,7 @@
             <p class="table__text">
               Porcentaje de adultos en EE.UU. que se consideran alumnos de por
               vida
-            </p>
-            <p class="table__text">
+              <br />
               Pew Research Centere
             </p>
           </li>
@@ -96,8 +95,7 @@
             <p class="table__text">
               El número de adultos menores de 25 años con una educación
               insuficiente para encontrar empleo.
-            </p>
-            <p class="table__text">
+              <br />
               Banco Mundial, 2017
             </p>
           </li>
@@ -127,64 +125,64 @@
         <a href="#" class="feynman__link">Más &#8594;</a>
       </section>
       <section class="kaufman">
-        <h2 class="section-title section-title_theme_dark">
+        <h2 class="section__title section__title_theme_dark">
           Diez principios para la rapida adqusición de habilidades
         </h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">
+        <h3 class="section__subtitle section__subtitle_theme_dark">
           por Josh Kaufman
         </h3>
-        <ul class="kaufman table">
-          <li class="table__cell_theme_dark">
+        <ul class="table table_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">1</h4>
             <p class="table__text_theme_dark">Elegir un proyecto atractivo</p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">2</h4>
             <p class="table__text_theme_dark">
               Enfocar tu energía en una habilidad a la vez
             </p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">3</h4>
             <p class="table__text_theme_dark">
               Definir tu nivel de desempeño
             </p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">4</h4>
             <p class="table__text_theme_dark">
               Deconstruir la habilidad en sub-habilidades
             </p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">5</h4>
             <p class="table__text_theme_dark">
               Obtener herramientas críticas
             </p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">6</h4>
             <p class="table__text_theme_dark">
               Eliminar los obstáculos que impiden la práctica.
             </p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">7</h4>
             <p class="table__text">Dedicar tiempo a la práctica</p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">8</h4>
             <p class="table__text_theme_dark">
               Crear bucles de retroalimentación rápidoso
             </p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">9</h4>
             <p class="table__text_theme_dark">
               Practicar en breves intervalos con un reloj
             </p>
           </li>
-          <li class="table__cell_theme_dark">
+          <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading_theme_dark">10</h4>
             <p class="table__text_theme_dark">
               Enfatizar la cantidad y la velocidad
@@ -215,12 +213,12 @@
         <div class="footer__column_content_social">
           <h3 class="footer__column-heading">Redes sociales</h3>
           <ul class="footer__list">
-            <li>
+            <li class="footer__item">
               <a href="#" class="footer__column-link"><img src="./images/facebook_white.svg" alt="Facebook logo"
                   class="footer__social-icons" />
                 Facebook</a>
             </li>
-            <li>
+            <li class="footer__item">
               <a href="#" class="footer__column-link"><img src="./images/instagram_white.svg" alt="Instagram logo"
                   class="footer__social-icons" />
                 Instagram</a>
