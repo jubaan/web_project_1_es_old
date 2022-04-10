@@ -43,6 +43,12 @@
 @import url("../block/footer/__author/footer__author.css");
 @import url("../block/logo/_place/logo_place_footer.css");
 @import url("../block/rotacion/rotacion.css");
+@import url("../block/techniques/techniques.css");
+@import url("../block/cards/cards.css");
+@import url("../block/cards/__item/cards__item.css");
+@import url("../block/cards/__image/cards__image.css");
+@import url("../block/cards/__title/cards__title.css");
+@import url("../block/cards/__description/cards__description.css");
 
 * {
   box-sizing: border-box;
