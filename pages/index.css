@@ -63,6 +63,9 @@
 @import url("../block/khan/__book-container/khan__book-container.css");
 @import url("../block/khan/__book-pic/khan__book-pic.css");
 @import url("../block/khan/__buy-link/khan__buy-link.css");
+@import url("../block/resources/resources.css");
+@import url("../block/resources/__logo-zone/resources__logo-zone.css");
+@import url("../block/resources/__logo/resources__logo.css");
 
 * {
   box-sizing: border-box;

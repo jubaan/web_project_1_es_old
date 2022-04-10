@@ -1,4 +1,5 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   position: relative;
+  min-height: 250px;
 }
