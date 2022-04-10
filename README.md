@@ -11,3 +11,11 @@ The theme of the project is on "Learning how to learn" and talks about the
 process of learning and the people who has been a pioneer or has influence the
 matter, and gives context about the hardships of learning, and shares tips and
 relevant resources to improve the skill of learning.
+
+
+---
+
+## Author
+Julio Añoveros
+- GitHub: [@jubaan](https://github.com/jubaan)
+- LinkedIn: [Julio Añoveros](https://www.linkedin.com/in/julioab)
