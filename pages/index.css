@@ -13,8 +13,8 @@
 @import url("../block/two-columns/__paragraph/two-columns__paragraph.css");
 @import url("../block/two-columns/__span-accent/two-columns__span-accent.css");
 @import url("../block/digits/digits.css");
-@import url("../block/section/__title/section__title.css");
-@import url("../block/section/__subtitle/section__subtitle.css");
+@import url("../block/section-title/section-title.css");
+@import url("../block/section-subtitle/section-subtitle.css");
 @import url("../block/table/table.css");
 @import url("../block/table/__cell/table__cell.css");
 @import url("../block/table/__heading/table__heading.css");
@@ -25,6 +25,8 @@
 @import url("../block/feynman/__link/feynman__link.css");
 @import url("../block/kaufman/kaufman.css");
 @import url("../block/kaufman/__triangle-pic/kaufman__triangle-pic.css");
+@import url("../block/section-title/_theme/section-title_theme_dark.css");
+@import url("../block/section-subtitle/_theme/section-subtitle_theme_dark.css");
 @import url("../block/table/_theme/table_theme_dark.css");
 @import url("../block/table/__cell/_theme/table__cell_theme_dark.css");
 @import url("../block/table/__heading/_theme/table__cell_theme_darktable__heading.css");
