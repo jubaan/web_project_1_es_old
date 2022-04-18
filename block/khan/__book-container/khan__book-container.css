@@ -3,4 +3,5 @@
   gap: 48px;
   height: 204px;
   overflow: hidden;
+  object-fit: cover;
 }
